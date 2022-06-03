@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-prim {
+    background: linear-gradient(45deg, #329472 -0.07%, #45CB9C 100.08%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.for-border {
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.tt-text {
+    min-width: 17%;
+} 
+
+.for-red {
+    color: #B91869;
+}
+
+.fortop {
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    top: -7%;
+    left: 50%;
+}
+
+.trans {
+    transition: all 0.4s ease-in-out;
+}
+
+.trans:hover {
+    transform: scale(1.15);
+    color: #B91869;
+}
+
+
+@media (max-width: 769px) {
+    .team-txt {
+        flex-direction: column;
+        align-items: center;
+    }
+}   
